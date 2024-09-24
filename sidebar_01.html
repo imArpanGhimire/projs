@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css" integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg==" crossorigin="anonymous" referrerpolicy="no-referrer" /></head>
+    <link rel="stylesheet" href="sidebar_01.css">
+    <title>Document</title>
+</head>
+<body>
+
+
+
+<div class="main">
+
+<div class="logo">LOGO</div>
+    <i class="fa-duotone fa-solid fa-bars" onclick="showmenu()"></i>
+    <nav id="navlinks">   
+      <i class="fa-solid fa-xmark" onclick="hidemenu()"></i>
+
+
+    <ul>
+        
+        <li>home</li>
+        <li>about</li>
+        <li>contact</li>
+        <li>services</li>
+        <li>location</li>
+       <!-- <img src="sun-icon-darktheme.png" alt="" id="icon" > -->
+    </ul>
+</nav>
+</div>
+
+
+<script>
+
+var navlinks=document.getElementById("navlinks");
+
+// navlinks.style.right="-300px";
+function showmenu(){
+    navlinks.style.right="0";
+}
+function hidemenu(){
+    navlinks.style.right="-300px";
+}
+
+// hidemenu();
+navlinks.style.right = "-300px";
+
+
+
+
+/* ---------------- darktheme ---------------*/
+
+// var icon= document.getElementById("icon");
+
+// icon.onclick=  function(){
+//     document.body.classList.toggle("darktheme");
+// if(document.body.classList.contains("darktheme")){
+//     icon.src="moon-icon-darktheme.png";
+// }
+// else{
+    
+//     icon.src="sun-icon-darktheme.png";
+// }
+// }
+
+</script>
+
+
+
+</body>
+</html>
