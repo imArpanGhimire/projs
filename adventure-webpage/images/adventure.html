@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css"
+        integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="adventure.css">
+</head>
+
+<body>
+
+    <!------------------ section1 ------------------>
+
+    <div class="section1">
+
+        <div class="navbar">
+            <h1 class="logo">adventure</h1>
+            <img src="menu-btn.png" class="menu" onclick="showmenu()">
+            <div id="feature">
+                <img src="xmark.jpg" class="xmark" alt="" onclick="hidemenu()">
+
+                <div class="navitems">
+
+                    <ul>
+                        <li>home</li>
+                        <li>tours</li>
+                        <li>explore</li>
+                        <li>about</li>
+                        <li>contact</li>
+                    </ul>
+                </div>
+
+            </div>
+
+        </div>
+
+        <div class="body1">
+            <h2>Explore <span>the colorful</span> world</h2>
+            <h1>a wonderful gift</h1>
+            <button>learn more</button>
+        </div>
+    </div>
+
+
+<!------------- section2 ------------------>
+
+<div class="section2">
+
+
+    <h1>upcoming events</h1>
+<div class="body2">
+    <div class="sec2-a">
+        <img src="img1.png" alt="">
+        <h4>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Mollitia, sed.</h4>
+        
+    </div>
+    <div class="sec2-a">
+        <img src="img2.png" alt="">
+        <h4>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Mollitia, sed.</h4>
+    </div>
+    <div class="sec2-a">
+        <img src="img3.png" alt="">
+        <h4>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Mollitia, sed.</h4>
+    </div>
+    <div class="sec2-a">
+        <img src="img4.png" alt="">
+        <h4>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Mollitia, sed.</h4>
+    </div>
+
+</div>
+
+</div>
+
+
+<!----------------- section3 ----------------->
+
+ 
+
+
+
+
+
+
+
+
+
+    <script>
+
+
+        var feature = document.getElementById("feature");
+
+        function showmenu() {
+            feature.style.right = "0";
+        }
+        function hidemenu() {
+            feature.style.right = "-300px";
+        }
+
+        hidemenu();
+
+    </script>
+</body>
+
+</html>

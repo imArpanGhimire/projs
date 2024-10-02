@@ -1,0 +1,87 @@
+ * {
+     margin: 0;
+     padding: 0;
+     box-sizing: border-box;
+     font-family: 'Montserrat', sans-serif;
+ }
+
+ :root {
+     --kalo: #2c2828;
+     --seto: #f8f8ff;
+     --rato: #f44336;
+     --payelo: #d9bb44;
+     --gulabi: rgb(246, 63, 93);
+ }
+
+ body {
+     background-color: rgb(197, 202, 204);
+ }
+
+ body img {
+     height: 250px;
+     width: 200px;
+ }
+
+ .container {
+     display: flex;
+     justify-content: center;
+     flex-wrap: wrap;
+     align-items: center;
+     margin-top: 50px;
+ }
+
+ .card {
+     width: 350px;
+     
+     box-shadow: 10px 14px 10px rgba(64, 64, 64, 0.358);
+     /* first value= right blur */
+     /* second value=bottom blur */
+     /* third value= blur chai kati dine */
+     /* fourth value= kun color ko blur diney */
+
+
+     overflow: hidden;
+     border-radius: 10px;
+     margin: 10px;
+   
+ }
+
+ .card img {
+     width: 100%;
+     object-fit: cover;
+ }
+
+ .content {
+     padding: 20px;
+ }
+
+ .card:hover{
+    transform: scale(1.09);
+    transition: 0.8s ease-out;
+ }
+ 
+
+
+/* 
+.container{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    
+}
+.card{
+    width: 350px;
+    box-shadow: 0 4px 6px rgba(0,0,0,0.3);
+    margin: 10px;
+    border-radius: 10px;
+    overflow: hidden;
+}
+.card img{
+    object-fit: cover;
+    width: 100%;
+
+}
+.content{
+    padding: 10px;
+    text-align: center;
+} */
